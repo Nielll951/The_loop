@@ -1,0 +1,79 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav-item {
+  margin-left: 52px;
+  font-weight: 500;
+}
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.cart {
+  background-image: url(../img/cart.svg);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  padding-left: 45px;
+  background-position: 0 center;
+}
+.cart-count {
+  background-image: url(../img/cart-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 24px;
+  display: block;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main-item {
+  flex: 0 0 50%;
+}
+.main .sale-description {
+  font-size: 30px;
+}
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
