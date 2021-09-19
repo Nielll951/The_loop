@@ -17,6 +17,7 @@ body {
 
 .wrapper {
    max-width: 1110px;
+   padding: 0px 15px;
    margin: 0 auto;
 }
 
@@ -24,6 +25,8 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 126px;
+   padding-top: 46px;
 }
 
 .nav {
@@ -32,7 +35,7 @@ body {
    padding-left: 0;
 
    &-item {
-      margin-left: 52px;
+      margin-right: 52px;
       font-weight: 500;
    }
 
@@ -69,7 +72,7 @@ body {
    font-size: 16px;
    text-transform: uppercase;
    text-decoration: none;
-   padding: 15px 20px;
+   padding: 18px 28px;
 }
 
 .main {
@@ -83,11 +86,37 @@ body {
    .sale {
       &-description {
          font-size: 30px;
+         letter-spacing: -0.6px;
       }
 
       &-title {
          font-size: 55px;
          font-weight: 700;
+         margin-top: 30px;
+         margin-bottom: 60px;
+      }
+   }
+}
+
+.box {
+   position: relative;
+
+   &-price {
+      position: absolute;
+      right: 0;
+      text-align: right;
+      margin-top: 35px;
+
+      &-old {
+         font-size: 24px;
+         font-weight: 700;
+      }
+
+      &-new {
+         font-size: 42px;
+         font-weight: 700;
+         color: $important;
+         margin-top: 17px;
       }
    }
 }

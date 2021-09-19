@@ -9,6 +9,7 @@ body {
 
 .wrapper {
   max-width: 1110px;
+  padding: 0px 15px;
   margin: 0 auto;
 }
 
@@ -16,6 +17,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 126px;
+  padding-top: 46px;
 }
 
 .nav {
@@ -24,7 +27,7 @@ body {
   padding-left: 0;
 }
 .nav-item {
-  margin-left: 52px;
+  margin-right: 52px;
   font-weight: 500;
 }
 .nav-link {
@@ -58,7 +61,7 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 18px 28px;
 }
 
 .main {
@@ -70,10 +73,33 @@ body {
 }
 .main .sale-description {
   font-size: 30px;
+  letter-spacing: -0.6px;
 }
 .main .sale-title {
   font-size: 55px;
   font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.box {
+  position: relative;
+}
+.box-price {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  margin-top: 35px;
+}
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+}
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
+  margin-top: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */
