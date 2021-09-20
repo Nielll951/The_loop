@@ -82,6 +82,7 @@ body {
 .title-h2 {
    text-align: center;
    font-size: 36px;
+   text-transform: uppercase;
 }
 
 .btn {
@@ -93,13 +94,13 @@ body {
    padding: 18px 28px;
 
    &-xs {
-      padding: 8px 28px;
+      padding: 5px 28px;
    }
 
    &-center {
       display: block;
       text-align: center;
-      max-width: 200px;
+      max-width: 168px;
       margin: 0 auto;
 
       span {
@@ -157,15 +158,20 @@ body {
 .notice {
    text-align: center;
    color: #fff;
-   padding: 50px 0;
+   padding: 64px 0 54px;
 
    &-title {
       font-size: 30px;
       text-transform: uppercase;
+      font-weight: 400;
 
       span {
          font-weight: 700;
       }
+   }
+
+   &-description {
+      font-size: 21px;
    }
 }
 
@@ -175,9 +181,9 @@ body {
 
    &-item {
       flex: 0 0 50%;
-      padding: 50px 0;
+      padding: 43px 0 63px;
       // background-position: right bottom;
-      background-position: calc(100% - 50px) bottom;
+      background-position: calc(100% - 37px) bottom;
       background-repeat: no-repeat;
       background-size: 190px 171px;
    }
@@ -198,7 +204,7 @@ body {
 
    &-description {
       font-size: 16px;
-      margin-bottom: 30px;
+      margin-bottom: 43px;
    }
 }
 
@@ -206,8 +212,8 @@ body {
    display: flex;
    justify-content: space-between;
    text-align: center;
-   margin-top: 30px;
-   margin-bottom: 30px;
+   margin-top: 103px;
+   margin-bottom: 100px;
 
    &-item {
       position: relative;
@@ -234,11 +240,92 @@ body {
 
    &-title {
       font-weight: 600;
+      margin-top: 23px;
+      margin-bottom: 0;
    }
 
    &-price {
       color: $accent;
       font-size: 18px;
       font-weight: 700;
+      margin-top: 10px;
+      margin-bottom: 0;
    }
+}
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 0;
+
+   &-logo {
+      flex: 0 0 40%;
+   }
+
+   &-nav {
+      flex: 0 0 60%;
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+   }
+
+   &-list {
+      list-style-type: none;
+      padding-left: 0;
+
+      &-title {
+         font-size: 10px;
+         text-transform: uppercase;
+         font-weight: 700;
+      }
+
+      &-item {
+         margin-bottom: 10px;
+         display: flex;
+         align-items: center;
+      }
+
+      &-link {
+         text-decoration: none;
+         color: $grey;
+         font-size: 14px;
+      }
+   }
+}
+
+.social {
+   background-repeat: no-repeat;
+   width: 18px;
+   height: 14px;
+   display: inline-block;
+
+}
+
+.social-vk {
+   background-image: url(../img/icon1.png);
+}
+
+.social-fb {
+   background-image: url(../img/icon2.png);
+}
+
+.social-insta {
+   background-image: url(../img/icon3.png);
+}
+
+.social+a {
+   padding-left: 5px;
+}
+
+.footer-bottom {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 14px;
+   padding: 10px 0;
+}
+
+.footer-bottom-link {
+   color: #212121;
+   text-decoration: none;
 }
