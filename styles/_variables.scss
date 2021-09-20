@@ -26,7 +26,13 @@ $important: #D84033;
    }
 
    @else if $point==xs {
-      @media (max-width: 320px) {
+      @media (max-width: 500px) {
+         @content;
+      }
+   }
+
+   @else if $point==minlg {
+      @media (min-width: 993px) {
          @content;
       }
    }
