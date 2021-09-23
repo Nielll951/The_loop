@@ -28,12 +28,11 @@
             <div class="cart">
                <span class="cart-count">5</span>
             </div>
-            <div class="toggle-menu">
-               <div class="line line1"></div>
-               <div class="line line2"></div>
-               <div class="line line3"></div>
-            </div>
-            
+            <div class="menu-btn">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>   
          </header>
       </div>
    </div>
@@ -136,9 +135,9 @@
                </ul>
                <ul class="footer-list">
                   <li class="footer-list-item footer-list-title">Соц сети</li>
-                  <li class="footer-list-item"><span class="social social-vk"></span><a class="footer-list-link" href="">VK.com</a></li>
-                  <li class="footer-list-item"><span class="social social-fb"></span><a class="footer-list-link" href="">Facebook</a></li>
-                  <li class="footer-list-item"><span class="social social-insta"></span><a class="footer-list-link" href="">Instagram</a></li>
+                  <li class="footer-list-item"><a class="footer-list-link" href="">VK.com</a></li>
+                  <li class="footer-list-item"><a class="footer-list-link" href="">Facebook</a></li>
+                  <li class="footer-list-item"><a class="footer-list-link" href="">Instagram</a></li>
                </ul>
             </div>
          </footer>
@@ -150,21 +149,15 @@
          <a href="" class="footer-bottom-link">Политика приватности</a>
       </div>
    </div>
-   <div class="nav-bar">
-      <ul class="nav-list">
-         <li class="nav-list-item"><a href="" class="nav-link">Home</a></li>
-         <li class="nav-list-item"><a href="" class="nav-link">About</a></li>
-         <li class="nav-list-item"><a href="" class="nav-link">Portfolio</a></li>
-         <li class="nav-list-item"><a href="" class="nav-link"></a></li>
-         <li class="nav-list-item"><a href="" class="nav-link"></a></li>
-      </ul>
+   <div class="menu">
+      <nav class="mobile-menu">
+         <li><a href="" class="nav-link-burger">Для мужчин</a></li>
+         <li><a href="" class="nav-link-burger">Для женщин</a></li>
+         <li><a href="" class="nav-link-burger">Для детей</a></li>
+         <li><a href="" class="nav-link-burger">Оплата</a></li>
+         <li><a href="" class="nav-link-burger">Доставка</a></li>
+      </nav>
    </div>
-   <script>
-      var toggleButton = document.querySelector('.toggle-menu');
-      var navBar = document.querySelector('.nav-bar');
-      toggleButton.addEventListener('click',function() {
-         navBar.classList.toggle('toggle');
-      });
-   </script>
+   <script src="script.js"></script>
 </body>
 </html>
